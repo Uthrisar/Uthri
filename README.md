@@ -7,6 +7,6 @@ myWeb
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-   <img height="250px" src="drib_future_tech.png" alt="tech">
+   <img height="250px" src="web_design.jpg" alt="tech">
 </body>
 </html>
