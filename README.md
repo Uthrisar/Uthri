@@ -8,6 +8,6 @@ myWeb
 </head>
 <body>
     <a href="https://uthrisar.github.io/Uthri"><h1>~Uthrisar~</h1></a>
-   <img height="250px" src="web_design.jpg" alt="tech">
+   <img height="250px" src="best_tech_jpg.jpg" alt="tech">
 </body>
 </html>
