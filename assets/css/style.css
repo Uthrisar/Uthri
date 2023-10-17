@@ -792,7 +792,7 @@ main {
   margin-left: 45px;
 }
 .timeline .title-wrapper .h3{
-  color: blue;
+  color: cyan;
 }
 .timeline-item { position: relative; }
 
@@ -802,7 +802,7 @@ main {
   font-size: var(--fs-6);
   line-height: 1.3;
   margin-bottom: 7px;
-  color: fuchsia;
+  color: deepskyblue;
 }
 
 .timeline-list span {
@@ -845,7 +845,7 @@ main {
  * skills 
  */
 
-.skills-title { margin-bottom: 20px; color: yellow; }
+.skills-title { margin-bottom: 20px; color: cyan; }
 
 .skills-list { padding: 20px; }
 
@@ -863,8 +863,9 @@ main {
   color: var(--light-gray);
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
+  color: cyan;
 }
-
+.title-wrapper .h5{ color: cyan; }
 .skill-progress-bg {
   background: var(--jet);
   width: 100%;
@@ -876,6 +877,7 @@ main {
   background: var(--text-gradient-yellow);
   height: 100%;
   border-radius: inherit;
+  background: cyan;
 }
 
 
