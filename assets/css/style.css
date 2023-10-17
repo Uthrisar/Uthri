@@ -313,7 +313,6 @@ main {
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
-.sidebar p{color: yellow;}
 .sidebar .name a{color: cyan;}
 .sidebar {
   margin-bottom: 15px;
@@ -423,11 +422,13 @@ main {
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
+  color: cyan;
 }
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
   font-size: var(--fs-7);
+  color: cyan;
 }
 
 .contact-info address { font-style: normal; }
@@ -444,6 +445,7 @@ main {
 .social-item .social-link {
   color: var(--light-gray-70);
   font-size: 18px;
+  color: cyan;
 }
 
 
