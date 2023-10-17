@@ -712,13 +712,14 @@ main {
 
 .modal-img-wrapper > img { display: none; }
 
-.modal-title { margin-bottom: 4px; }
+.modal-title { margin-bottom: 4px; color: cyan;}
 
 .modal-content time {
   font-size: var(--fs-6);
   color: var(--light-gray-70);
   font-weight: var(--fw-300);
   margin-bottom: 10px;
+  color: cyan;
 }
 
 .modal-content p {
@@ -726,6 +727,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  color: cyan;
 }
 
 
