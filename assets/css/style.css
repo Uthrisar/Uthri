@@ -487,11 +487,11 @@ main {
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
-  color: yellow;
+  color: deeppink;
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); color: cyan;}
+.navbar-link:focus { color: var(--light-gray-70); color: honeydew;}
 
 .navbar-link.active { color: var(--orange-yellow-crayola); color: cyan; }
 
