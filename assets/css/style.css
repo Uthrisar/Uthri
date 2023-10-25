@@ -486,12 +486,14 @@ main {
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
+  color: yellow;
+  font-size: 18px;	
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); }
+.navbar-link:focus { color: var(--light-gray-70); color: cyan;}
 
-.navbar-link.active { color: var(--orange-yellow-crayola); }
+.navbar-link.active { color: var(--orange-yellow-crayola); color: cyan; }
 
 
 
@@ -911,6 +913,7 @@ main {
   border-radius: 14px;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
+  color: cyan;
 }
 
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
@@ -945,6 +948,7 @@ main {
   width: 100%;
   padding: 8px 10px;
   border-radius: 8px;
+  color: cyan;
 }
 
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
@@ -1008,6 +1012,7 @@ main {
   opacity: 0;
   z-index: 1;
   transition: var(--transition-1);
+  color: cyan;
 }
 
 .project-item > a:hover .project-item-icon-box {
@@ -1165,7 +1170,7 @@ main {
 
 .contact-form { margin-bottom: 10px; }
 
-.form-title { margin-bottom: 20px; }
+.form-title { margin-bottom: 20px; color: cyan; }
 
 .input-wrapper {
   display: grid;
