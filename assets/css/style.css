@@ -487,7 +487,6 @@ main {
   padding: 20px 7px;
   transition: color var(--transition-1);
   color: yellow;
-  font-size: 15px;	
 }
 
 .navbar-link:hover,
