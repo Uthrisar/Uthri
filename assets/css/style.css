@@ -482,11 +482,11 @@ main {
 }
 
 .navbar-link {
-  font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
   color: wheat;
   color: yellow;
+  font-size: 17px;
   font-weight: 550;
 }
 
