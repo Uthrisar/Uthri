@@ -465,13 +465,12 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
-  background: rgb(42, 75, 103);	
+  background: lightseagreen;	
 }
 
 .navbar-list {
@@ -483,17 +482,18 @@ main {
 }
 
 .navbar-link {
-  color: var(--light-gray);
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
   color: wheat;
+  color: yellow;
+  font-weight: 550;
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); color: honeydew;}
+.navbar-link:focus { color: var(--light-gray-70); color: blue;}
 
-.navbar-link.active { color: var(--orange-yellow-crayola); color: deepskyblue; }
+.navbar-link.active { color: var(--orange-yellow-crayola); color: black; }
 
 
 
