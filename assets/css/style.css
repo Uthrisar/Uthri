@@ -486,7 +486,7 @@ main {
   transition: color var(--transition-1);
   color: wheat;
   color: yellow;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 550;
 }
 
