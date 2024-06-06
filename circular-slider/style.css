@@ -3,20 +3,22 @@
     margin: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     height: 100vh;
     display: flex;
-    background: #000;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/992/897/118/laptop-backgrounds-nature-images-1920x1200-wallpaper-52d15200fdc69e6baa689295a02899b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  
+
   .circular-slider {
     width: 250px;
     height: 150px;
     margin: auto;
     perspective: 1000px;
   }
-  
+
   .slider-content {
     width: 100%;
     height: 100%;
@@ -24,7 +26,7 @@
     transform-style: preserve-3d;
     animation: rotate 10s infinite;
   }
-  
+
   .slider-item {
     width: 220px;
     height: 120px;
@@ -34,19 +36,19 @@
     -webkit-gradient(linear, left top, left bottom, from(transparent),
                      color-stop(0.5, transparent), to(rgba(255,255,255,.5)));
   }
-  
+
   .slider-item img {
     width: 100%;
     height: 100%;
   }
-  
+
   .slider-item:nth-child(1) { transform: rotateY(0deg) translateZ(216px); }
   .slider-item:nth-child(2) { transform: rotateY(60deg) translateZ(216px); }
   .slider-item:nth-child(3) { transform: rotateY(120deg) translateZ(216px); }
   .slider-item:nth-child(4) { transform: rotateY(180deg) translateZ(216px); }
   .slider-item:nth-child(5) { transform: rotateY(240deg) translateZ(216px); }
   .slider-item:nth-child(6) { transform: rotateY(300deg) translateZ(216px); }
-  
+
   @keyframes rotate {
     0%     { transform: translateZ(-216px) rotateY(0deg); }
     16.67% { transform: translateZ(-216px) rotateY(-60deg); }
